@@ -29,8 +29,8 @@ git commit -m "$message"
 read -p "Enter repository name: " repo_name
 
 # Set username and password for git push
-username=""
-password=""
+username="mohammedhank91"
+password="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"
 
 # Check if the repository exists
 if ! curl --silent --head --request GET "https://api.github.com/repos/$username/$repo_name" | grep "200 OK" > /dev/null; then
