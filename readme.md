@@ -19,8 +19,8 @@ Quickstart guide for those already familiar with Ansible:
 
 ### 1. Obtain the playbook
 ```shell
-git clone https://github.com/do-community/ansible-playbooks.git
-cd ansible-playbooks/wordpress-lamp_ubuntu1804
+git clone https://github.com/mohammedhank91/wordpress-playbook.git
+cd wordpress-playbook
 ```
 
 ### 2. Customize Options
@@ -49,7 +49,7 @@ http_port: "80"
 ### 3. Run the Playbook
 
 ```command
-ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
+ansible-playbook  playbook.yml
 ```
 
 For more information on how to run this Ansible setup, please check this guide: [How to Use Ansible to Install and Set Up WordPress with LAMP on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-wordpress-with-lamp-on-ubuntu-18-04).
