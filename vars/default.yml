@@ -9,6 +9,6 @@ mysql_user: "sammy"
 mysql_password: "password"
 
 #HTTP Settings
-http_host: "localhost"
+http_host: "0.0.0.0"
 http_conf: "wp.conf"
-http_port: "8087"
+http_port: "80"
